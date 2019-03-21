@@ -16,7 +16,7 @@ namespace MiUtil.Net.MSTest
             [System.ComponentModel.Description(desc2)]
             Two = 2,
             [System.ComponentModel.Description(desc3)]
-            Three  =3
+            Three = 3
         }
 
         [TestMethod]
@@ -41,6 +41,15 @@ namespace MiUtil.Net.MSTest
             Assert.AreEqual(desc1, MiUtil.Net.EnumUtil.GetDescription(MyEnum.One));
             Assert.AreEqual(desc2, MiUtil.Net.EnumUtil.GetDescription(MyEnum.Two));
             Assert.AreEqual(desc3, MiUtil.Net.EnumUtil.GetDescription(MyEnum.Three));
+        }
+
+        //[TestMethod]
+        public void TestEnumUtilEnumeration()
+        {
+            foreach (MyEnum myEnum in (MyEnum[])System.Enum.GetValues(typeof(MyEnum)))
+            {
+                System.Console.WriteLine("Key: " + ((int)myEnum).ToString() + ", Value: " + myEnum.ToString() + ", Description: " + MiUtil.Net.EnumUtil.GetDescription(myEnum));
+            }
         }
     }
 }

@@ -53,5 +53,11 @@ namespace MiUtil.Net
 
             return string.Empty;
         }
+
+        //ToDo
+        public static bool IsKeyExists<T>(this T e, string searchKey)
+        {
+            return false;
+        } 
     }
 }
