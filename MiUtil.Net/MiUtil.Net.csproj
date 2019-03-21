@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>mijaved</Authors>
+    <Company />
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>c-sharp, utility</PackageTags>
+    <Copyright>mijaved</Copyright>
+    <Description>Utility methods for C#.Net core application</Description>
+    <PackageIconUrl>https://img.icons8.com/flat_round/64/000000/settings.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/mijaved/MiUtil.Net</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/mijaved/MiUtil.Net</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/mijaved/MiUtil.Net/blob/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
 </Project>
