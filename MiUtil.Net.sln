@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiUtil.Net", "MiUtil.Net\MiUtil.Net.csproj", "{A6D91D2B-C867-41BC-985B-5E8F71882581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiUtil.Net.MSTest", "MiUtil.Net.MSTest\MiUtil.Net.MSTest.csproj", "{11B90C48-55B6-46B7-85AB-9C5A0FE76881}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6D91D2B-C867-41BC-985B-5E8F71882581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D91D2B-C867-41BC-985B-5E8F71882581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D91D2B-C867-41BC-985B-5E8F71882581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D91D2B-C867-41BC-985B-5E8F71882581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B90C48-55B6-46B7-85AB-9C5A0FE76881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B90C48-55B6-46B7-85AB-9C5A0FE76881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B90C48-55B6-46B7-85AB-9C5A0FE76881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B90C48-55B6-46B7-85AB-9C5A0FE76881}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EFE8F77-DD4F-4B40-9AA4-DF61EFE1FAD0}
+	EndGlobalSection
+EndGlobal
