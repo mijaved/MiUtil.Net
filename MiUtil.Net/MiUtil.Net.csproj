@@ -1,18 +1,23 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
-    <Authors>mijaved</Authors>
-    <Company />
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageTags>c-sharp, utility</PackageTags>
+    <Authors>mijaved</Authors>
     <Copyright>mijaved</Copyright>
-    <Description>Utility methods for C#.Net core application</Description>
+    <Description>Utility methods for C#.Net cross platform application
+
+https://github.com/mijaved/MiUtil.Net/blob/master/LICENSE</Description>
     <PackageIconUrl>https://img.icons8.com/flat_round/64/000000/settings.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/mijaved/MiUtil.Net</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://github.com/mijaved/MiUtil.Net</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/mijaved/MiUtil.Net/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <PackageReleaseNotes>Converted to .netstandard library</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
